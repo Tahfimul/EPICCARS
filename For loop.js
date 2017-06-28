@@ -9,7 +9,7 @@ var CarsE=["Engine: 3.8 L V6","Engine: 2.5 L 4-cylinder","Engine: Electric","Eng
 var CarsM=["MPG: 16 city / 23 highway","MPG: 17 city / 23 highway","MPG: 137 city / 111 highway","MPG: Up to 15 city / 22 highway","MPG: 7 city / 10 highway", "MPG: 21 city / 28 highway", "MPG: 13 city / 17 highway", "MPG: N/A", "MPG: 14 city / 23 highway", "MPG: 16 city / 26 highway", "MPG: 22 city / 31 highway","MPG: 12 city / 18 highway", "MPG: 22 city / 30 highway", "MPG: 19 city / 24 highway", "MPG: 16 city / 23 highway", "MPG: 21 city / 22 highway", "MPG: N/A", "MPG: N/A"]
 
 for (i=0; i<Cars.length; i++){
-	document.write("<center>"+"<p id=text>"+i+"." +Cars[i]+"<br>"+CarsH[i]+"<br>"+CarsCW[i]+"<br>"+CarsE[i]+"<br>"+CarsM[i]+"<br>"+"<img src= EPICCARS/img/" +i+ ".jpg width=400px >" +"<br>"+"</p>"+"</center>");
+	document.write("<center>"+"<p id=text>"+i+"." +Cars[i]+"<br>"+CarsH[i]+"<br>"+CarsCW[i]+"<br>"+CarsE[i]+"<br>"+CarsM[i]+"<br>"+"<img src= img/" +i+ ".jpg width=400px >" +"<br>"+"</p>"+"</center>");
 	
 
 	
